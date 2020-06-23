@@ -1,0 +1,236 @@
+/*Limpar formatação de padrão*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+
+
+
+/*
+====== LAYOUT ======
+*/
+
+
+div#areaCabecalho a:link,div#areaCabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+ 
+div#areaCabecalho a:hover {
+	color: #f7b600;
+	background-color: #FFF;
+	text-decoration: none;
+
+}
+
+div#areaCabecalho {
+	background-color: #f7b600;
+	text-align: center;
+	padding: 15px; 
+	border-bottom: 1px black solid;
+}
+
+div#areaLogo, div#areaMenu {
+	padding: 10px;
+}
+
+div#areaPrincipal {
+	width: 920px;
+	margin: 0px auto;
+	padding: 15px;
+}
+
+div#areaPostagens {
+	width: 660px;
+	float: left;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+div#areaLateral {
+	width: 240px;
+	background-color: white;
+	float: right;
+}
+
+div#areaRodape {
+	clear: both;
+	background: rgba(0,0,0,0.4);
+	text-align: right;
+	padding: 15px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.6);
+	text-decoration: none;
+	text-decoration: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #f7b600;
+}
+
+
+div#areaRodape a:hover {
+	color: rgba(0,0,0,0.6);
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
+
+div#areaCabecalho a:link,div#areaCabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+ 
+div#areaCabecalho a:hover {
+	color: #f7b600;
+	background-color: #FFF;
+	text-decoration: none;
+
+}
+/*
+====== FORMATAÇÃO MENU ======
+*/
+
+
+
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+a:link, a:visited {
+	color: #f7b600;
+}
+ 
+ a:hover {
+	text-decoration: underline;
+
+}
+
+
+
+
+div#areaCabecalho a:link,div#areaCabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+ 
+div#areaCabecalho a:hover {
+	color: #f7b600;
+	background-color: #FFF;
+	text-decoration: none;
+
+}
+
+
+
+/*
+====== FORMATÃÇÕES GERAIS ======
+*/
+
+p {
+	text-align: justify;
+	text-indent: 40px;	
+}
+
+
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #f7b600;
+
+}
+
+.dataPostagem {
+	font-size: 18px;
+	
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.branco {
+	color: white;
+}
+
+#creditoPostagem {
+	font-size: 16px;
+
+	border-bottom: 1px solid #CCC; 
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+	float: right;
+}
+
+img#foto1 {
+	border-top: 1px solid rgba(0,0,0,0.6);
+	padding-top: 10px;
+	margin: 15px;
+}
+
+.conteudoLateral {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+.postagemLateral {
+	font-size: 0.8em;
+	padding: 5px;
+
+}
+
+div#areaRodape {
+	clear: both;
+	background: rgba(0,0,0,0.4);
+	text-align: right;
+	padding: 15px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.6);
+	text-decoration: none;
+	text-decoration: bold;
+}
+
+div#areaRodape a{
+	clear: both;
+	text-align: right;
+	padding: 15px;
+	font-size: 19px;
+	color: rgba(0,0,0,0.9);
+	text-decoration: none;
+	text-decoration: bold;
+}
